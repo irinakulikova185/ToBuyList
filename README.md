@@ -13,5 +13,5 @@
 
 -удалить пункт;
 
-![Screenshot](https://user-images.githubusercontent.com/66483763/122553853-e1389c00-d040-11eb-9330-495e5bd61b7b.png)
+
 

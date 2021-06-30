@@ -1,0 +1,51 @@
+@media (max-width: 991px) {
+    .container {
+        width: 80%;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 90%;
+    }
+    .toBuy {
+        width: 95%;
+            &__mainPanel {
+                justify-content: space-evenly;
+                margin-top: 20px;
+                input {
+                    min-width: 280px;
+                    height: 33px;
+                    
+                }
+            }
+            &__list {
+                overflow: hidden;
+            }
+            // &__addBtn, &__clearBtn {
+            //     width: ;
+            // }
+        }
+}
+
+@media (max-width: 575px) {
+    .container {
+        width: 95%;
+    }
+    .toBuy {
+            &__mainPanel {
+                input {
+                   margin-bottom: 10px;
+                   height: 41px;
+                }
+            }
+            &__addBtn, &__clearBtn {
+                height: 41px;
+            }
+            &__listItem {
+                height: 54px;
+                padding: 5px 16px
+            }
+        }         
+} 

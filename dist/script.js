@@ -2,7 +2,6 @@
 window.addEventListener('DOMContentLoaded', () => {
     const addBtn = document.querySelector('.toBuy__addBtn'),
           clearBtn = document.querySelector('.toBuy__clearBtn'),
-          filterBtn = document.querySelector('.toBuy__filterBtn'),
           input = document.querySelector('input'),
           list = document.querySelector('.toBuy__list');  
 
@@ -98,7 +97,7 @@ window.addEventListener('DOMContentLoaded', () => {
         addBtn.addEventListener('click', () => {
             addNewItem();
             
-        }) 
+        })
         input.addEventListener('keydown', (e) => {
             if (e.keyCode === 13) {
                 addNewItem()

@@ -22,7 +22,7 @@ function copyJS() {
 }
 
 function styles() {
-  return gulp.src("src/style.scss")
+  return gulp.src("src/scss/style.scss")
       .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
       .pipe(rename({suffix: '.min', prefix: ''}))
       .pipe(autoprefixer())
@@ -38,7 +38,7 @@ function watch() {
         });
         
         gulp.watch("./src/index.html", gulp.parallel("copyHtml"));
-        gulp.watch("./src/style.scss", gulp.parallel("styles"));
+        gulp.watch("./src/scss/*.scss", gulp.parallel("styles"));
         gulp.watch("./src/script.js", gulp.parallel("copyJS"));
      
 }

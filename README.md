@@ -13,3 +13,6 @@
 
 -удалить пункт;
 
+
+![screenshot](https://user-images.githubusercontent.com/66483763/123956691-a4ab5f80-d9b3-11eb-842f-4af8998c1077.png)
+
